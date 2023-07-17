@@ -1,0 +1,233 @@
+:root
+{
+    --redcoloer:red;
+    --whitecolor:white;
+    --darkcolor:black;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --bodycolor:rgba(106,110,123,0.72);
+    --h1color:#393f52;
+    --footercolor:#131c26;
+}
+.main-btn
+{
+    background-color: var(--redcoloer);
+    color: var(--whitecolor);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-btn:hover
+{
+    background-color: darkred;
+    color: white;
+
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar
+{
+    background: var(--whitecolor);
+    box-shadow: var(--box-shadow);
+    position: relative;
+}
+.navbar .navbar-brand
+{
+    color: var(--redcoloer);
+}
+.navbar .navbar-nav .nav-link
+{
+    color:var(--darkcolor);
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover
+{
+    color: var(--redcoloer);
+
+}
+.navbar .navbar-toggler
+{
+    color: var(--darkcolor);
+    font-size: 25px;
+    border-color: var(--darkcolor);
+}
+.navbar .navbar-toggler:focus
+{
+    box-shadow: none;
+}
+.navbar .nav-item .nav-link .user
+{
+    cursor: pointer;
+}
+.dashboard
+{
+    background-color:var(--bodycolor);
+}
+.dashboard h1
+{
+    color: var(--h1color)
+}
+.orders
+{
+    background-color:var(--bodycolor);
+}
+.orders h1
+{
+    color: var(--h1color)
+}
+
+.dashboard form
+{
+    border: 1px solid black;
+    margin-top: 50px;
+    background-color: var(--whitecolor);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--h1color);
+}
+.dashboard form input[type=text]
+{
+    width: 80%;
+    color: var(--h1color);
+}
+.dashboard form input[type=file]
+{
+    width: 80%;
+    color: var(--h1color);
+    border: 1px solid black;
+}
+.dashboard form .main-btn
+{
+    width: 100px;
+    height: 40px;
+}
+.dashboard .row a
+{
+    cursor: pointer;
+    color: var(--h1color);
+    text-decoration: none;
+    
+}
+.box img
+{
+    height: 250px;
+}
+.dashboard form select
+{
+    width: 80%;
+    color: var(--h1color);
+    text-align: center;
+}
+.footer
+{
+    background-color: var(--footercolor);
+    cursor: pointer;
+}
+.footer .facebook:hover
+{
+    color: #1877f2;
+    
+
+}
+.footer .twitter:hover
+{
+    color:  #1da1f2;
+
+}
+.footer .linkedin:hover
+{
+    color: #0a66c2;
+}
+.footer .yotube:hover
+{
+    color: #ff0000;
+}
+.kfc
+{
+    background-color: var(--h1color);
+} 
+.delivery
+{
+    background-color: var(--bodycolor);
+}
+.titlle
+{
+    background-color: var(--bodycolor);
+}
+.titlle h3 span
+{
+    color: var(--h1color);
+}
+.products
+{
+    background-color: var(--bodycolor);
+    cursor: pointer;
+}
+.login
+{
+    cursor: pointer;
+    color: var(--h1color);
+}
+.login .form
+{
+    border: 1px solid black;
+    background-color: var(--whitecolor);
+    font-size: 20px;
+    color: var(--h1color);
+}
+.login .form span a
+{
+    color: var(--redcoloer);
+    text-decoration: none;
+}
+.login .form span a:hover
+{
+    text-decoration: underline;
+
+}
+.message
+{
+    cursor: pointer;
+    color: var(--h1color);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.cart
+{
+    background-color: var(--bodycolor);
+    cursor: pointer;
+}
+.search
+{
+    background-color: var(--bodycolor);
+    cursor: pointer;
+}
+.userinfo
+{
+    width: auto;
+    background:var(--footercolor);
+    position: absolute;
+    right: 0;
+    display: none;
+    z-index: 1;
+}
+.userinfo a 
+{
+    text-decoration: none;
+}
+.userinfo a:hover
+{
+    text-decoration: underline;
+}
+.userinfo .close
+{
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
